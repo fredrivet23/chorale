@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+<title>Choeur de Maisonneuve</title>
+<link rel="stylesheet" type="text/css" media="screen" title="style" href="CSS/style_de_baseslide.css"/>
+<!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+<meta charset="utf-8">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+
+<SCRIPT type="text/javascript" src="pageslide.js">
+
+</SCRIPT>
+
+
+
+ <table class="bandeau" width=100% height= 25 border=0>
+		<tr>
+		<td> <a class="bandeau" href="index.html"> Accueil</a>   </td>
+		<td> <a class="bandeau"  href="pagesslide/repetitions.html"> Répétitions</a>   </td>
+		<td> <a class="bandeau"  href="pagesslide/a_propos.html"> À propos</a>   </td>
+		
+		<td> <a class="bandeau"  href="pagesslide/cheffe.html"> Notre cheffe</a>   </td>	
+		<td> <a class="bandeau"  href="pagesslide/concerts.html">Archives</a>  </td>
+		<td> <a class="bandeau"  href="pagesslide/galerie.html">Galerie</a>  </td>
+		<td> 
+			<span class="bandeau" onClick="passWord()">Membres</span>  
+		</td>
+		<td> <a class="bandeau"  href="pagesslide/contact.html">Nous contacter</a>   </td>
+			
+		</tr>
+</table>
+
+<center><img class="scene" src="images/scene.jpg"  width=100% height=600> </center>
+ <div class="page">	
+
+
+ <br> 
+ <span class="titre">Bienvenue sur le site du Choeur de Maisonneuve</span>
+ <br> <br> 
+  <table  width=100%  border=0>
+ 
+	<tr>
+		<td align="center" width=40%>
+		
+		
+		<div class="w3-content w3-section" style="max-width:400px">
+			<img class="mySlides" src="images/accueil/scene2.jpg" style="width:100%">
+			<img class="mySlides" src="images/accueil/scene.jpg" style="width:100%">
+			<img class="mySlides" src="images/accueil/scene1.jpg" style="width:100%">
+			<img class="mySlides" src="images/accueil/scene3.jpg" style="width:100%">
+			<img class="mySlides" src="images/accueil/scene4.jpg" style="width:100%">
+			<img class="mySlides" src="images/accueil/scene5.jpg" style="width:100%">
+		</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+		
+		
+		
+		</td>
+		
+		<td align="center" width=60%>
+		
+		
+		
+	
+		<span class="date">Nous reprendrons nos activités</span>
+		<br>
+		<br>
+		<span class="date">dès que la situation sanitaire</span>
+		<br>
+		<br>
+		<span class="date">le premettra.</span>
+		<br>
+		<!--<a href="https://www.google.com/maps/place/Coll%C3%A8ge+Jean-Eudes/@45.5554957,-73.579071,15z/data=!4m5!3m4!1s0x0:0x624c610c9304415e!8m2!3d45.5554957!4d-73.579071" target="_blank"><span class="lieu">au Collège Jean Eudes<span></a>
+ -->
+ 
+		</td>
+		
+	
+			
+		</tr>
+ </table>
+
+<a class="facebook" href="https://www.facebook.com/choeurmaisonneuve" target="_blank">Visitez notre page Facebook	</a>
+
+
+</div> 
+</body>

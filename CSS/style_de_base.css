@@ -1,0 +1,100 @@
+BODY {
+	color:blue;
+	/*background-image:url('../images/scene.jpg');*/
+	
+	background-color:#F1FAFC;
+	font-size: 26pt;
+	font-family: "Comic Sans MS", "Comic Sans", cursive; 
+	
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 800px 600px;
+  position: relative;
+}
+
+.scene{
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0.2;
+	filter:alpha(opacity=50);
+	z-index=1;
+}
+.titre  {
+	color : blue;
+	text-align: center;
+	font-size: 18;
+	font-weight: bold;
+	
+}
+.texte{
+	color : red;
+	text-align: center;
+	font-size: 18;
+}
+	
+div{
+	
+	position:absolute;
+	top:0;
+	left:0;
+	text-align: center;
+	
+	width : 100%;
+	z-index=2;
+}
+li{
+	list-style-image : url('../images/puce_notes.png');
+	color : black;
+	text-align: center;
+	font-size: 16pt;
+}
+
+.date{
+	color : green;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20pt;
+}
+.heure{
+	color : blue;
+	text-align: center;
+	font-size: 22pt;
+}
+.lieu{
+	background: #D0E4FC;
+	color :blue;
+	text-align: center;
+	font-size: 22pt;
+}
+
+table{
+	table-layout: auto; 
+	width: 100%;
+	color : red;
+	text-align: center;
+	font-size: 14pt;
+}
+.bandeau{
+	-moz-tab-size: 10; /* Firefox */
+  -o-tab-size: 10; /* Opera 10.6-12.1 */
+  tab-size: 10;
+  font-size: 12pt;
+	/*background-image:url('../images/image_de_fond3.jpg');*/
+	background-size: 85px 85px;
+	text-align: center;
+}
+a{
+	text-decoration:none;
+	color : red;
+}
+.facebook{
+	color : blue;
+	text-align: center;
+	font-size: 14pt;
+}
+	
+
+
+
+

@@ -1,0 +1,225 @@
+@media (max-width: 640px) {
+	* {
+		box-sizing: border-box;
+	}
+	
+	/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+
+	img,
+	table,
+	td,tr,
+	
+	blockquote,
+	code,
+	pre,
+	textarea,
+	input,
+	iframe,
+	object,
+	embed,
+	video {
+		max-width: 100%;
+	}
+	
+	/* conserver le ratio des images */
+
+	img {
+		height: auto;
+		filter:alpha(opacity=100);
+	}
+	
+	/* gestion des mots longs */
+
+	textarea,
+	table,
+	td,
+	th,
+	code,
+	pre,
+	samp {
+		-webkit-hyphens: auto; /* césure propre */
+		-moz-hyphens: auto;
+		hyphens: auto;
+		word-wrap: break-word; /* passage à la ligne forcé */
+	}
+	
+	code,
+	pre,
+	samp {
+		white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+	}
+	
+	/* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+	.element1,
+	.element2 {
+		float: none;
+		width: auto;
+	}
+	
+	/* masquer les éléments superflus */
+
+	.hide_mobile {
+		display: none !important;
+	}
+	
+	/* Un message personnalisé */
+
+	body:before {
+		content: "Version mobile du site";
+		display: block;
+		text-align: center;
+		font-style: italic;
+		color: #777;
+	}
+}
+
+.Layer1
+ {
+   position:absolute;
+   background: transparent url(..images/header.gif) repeat-y; /* x pour repeter en abscisse et y pour les ordonnées */
+   left:0px;
+   top:20px;
+   width:746px;
+   height:45px;
+   z-index:1;
+}
+BODY {
+	color:blue;
+	
+	
+	background-color:#C3D4DB;
+	font-size: 26pt;
+	/*font-family: "Comic Sans MS", "Comic Sans", cursive; */
+	font-family: "Calibri";
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 800px 600px;
+  position: relative;
+}
+
+.scene{
+	position:absolute;
+	top:40;
+	left:0;
+	opacity:0.2;
+	filter:alpha(opacity=50);
+	z-index=1;
+}
+.titre  {
+	color : #5174A0;
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	
+}
+.texte{
+	color : #729FD6;
+	text-align: center;
+	font-size: 40;
+}
+	
+.page{
+	
+	position:absolute;
+	top:40;
+	left:0;
+	text-align: center;
+	
+	width : 100%;
+	z-index=2;
+}
+li{
+	/*list-style-image : url('../images/puce_notes.jpg');*/
+	color : white;
+	text-align: center;
+	font-size: 16pt;
+	font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+.date{
+	color : #264C7D;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30pt;
+}
+.heure{
+	color : #264C7D;
+	text-align: center;
+	font-size: 24pt;
+}
+.lieu{
+	/*background: #D0E4FC;*/
+	color :#264C7D;
+	text-align: center;
+	font-size: 24pt;
+}
+
+.calendrier{
+	background: white;
+	align:center;
+	width: 75%;
+	color :blue;
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+table{
+	table-layout: auto; 
+	width: 100%;
+	color : red;
+	text-align: center;
+	font-size: 14pt;
+}
+.bandeau{
+	-moz-tab-size: 10; /* Firefox */
+  -o-tab-size: 10; /* Opera 10.6-12.1 */
+  tab-size: 10;
+  font-size: 18pt;
+	/*background-image:url('../images/image_de_fond3.jpg');*/
+	background-size: 85px 85px;
+	text-align: center;
+	font-family: "arial",  Helvetica, sans-serif;
+	color: white;
+	text-decoration:none;
+	background-color:#44556A;
+	cursor: pointer;
+	font-weight: normal;
+}
+a{
+	text-decoration:underline;
+	font-family: "arial",  Helvetica, sans-serif;
+	color : #5174A0;
+	font-weight: bold;
+}
+.facebook{
+	color : #5174A0;
+	font-family: "arial",  Helvetica, sans-serif;
+	text-align: center;
+	font-size: 14pt;
+}
+embed{
+	width:800px;
+	height:1800px;
+}	
+.histoire{
+	position: center;
+	color : #264C7D;
+	width:80%;
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: justify;
+}
+
+
+
+
